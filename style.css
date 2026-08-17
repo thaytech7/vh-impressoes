@@ -1195,41 +1195,20 @@ h3 {
 }
 
 .botao-dev {
+    width: 42px;
+    height: 42px;
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    gap: 8px;
-
-    min-width: 130px;
-
-    padding: 12px 18px;
-
-    border-radius: 8px;
+    border-radius: 50%;
 
     color: #ffffff;
 
     text-decoration: none;
 
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 18px;
 
     transition: 0.3s;
-}
-
-.botao-dev-whatsapp {
-    background-color: #25D366;
-}
-
-.botao-dev-instagram {
-    background-color: #980200;
-}
-
-.botao-dev-email {
-    background-color: #444444;
-}
-
-.botao-dev:hover {
-    transform: translateY(-2px);
 }
