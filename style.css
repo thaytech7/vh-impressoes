@@ -1189,37 +1189,47 @@ h3 {
 
 .links-desenvolvimento {
     display: flex;
-
     justify-content: center;
-    align-items: center;
-
     gap: 12px;
+    flex-wrap: wrap;
 }
 
-.links-desenvolvimento a {
-    width: 38px;
-    height: 38px;
-
-    display: flex;
-
+.botao-dev {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    background-color: #980200;
+    gap: 8px;
+
+    min-width: 130px;
+
+    padding: 12px 18px;
+
+    border-radius: 8px;
 
     color: #ffffff;
 
-    border-radius: 50%;
-
     text-decoration: none;
 
-    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
 
     transition: 0.3s;
 }
 
-.links-desenvolvimento a:hover {
-    background-color: #700100;
+.botao-dev-whatsapp {
+    background-color: #25D366;
+}
 
-    transform: translateY(-3px);
+.botao-dev-instagram {
+    background-color: #980200;
+}
+
+.botao-dev-email {
+    background-color: #444444;
+}
+
+.botao-dev:hover {
+    transform: translateY(-2px);
 }
